@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AmazonWebsite]">
+  <listeners>
+    <listener class-name="com.htc.amazon.listener.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Amazon WebSite Test(failed)">
+    <classes>
+      <class name="com.htc.amazon.test.PurchasingPoductTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadProptiesFile"/>
+          <include name="tearDown"/>
+          <include name="LoginAndPurchasingTest" invocation-numbers="0"/>
+          <include name="tearDownSuiteLevel"/>
+        </methods>
+      </class> <!-- com.htc.amazon.test.PurchasingPoductTest -->
+      <class name="com.htc.amazon.test.AmzonCareersTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadProptiesFile"/>
+          <include name="amazonCareers"/>
+          <include name="tearDown"/>
+          <include name="tearDownSuiteLevel"/>
+        </methods>
+      </class> <!-- com.htc.amazon.test.AmzonCareersTest -->
+      <class name="com.htc.amazon.test.PrimeVidoTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadProptiesFile"/>
+          <include name="tearDown"/>
+          <include name="VerifyPrimeVideo" invocation-numbers="0"/>
+          <include name="tearDownSuiteLevel"/>
+        </methods>
+      </class> <!-- com.htc.amazon.test.PrimeVidoTest -->
+      <class name="com.htc.amazon.test.RemovingAItemFromTheCart">
+        <methods>
+          <include name="RemovingItemFromCart"/>
+          <include name="setup"/>
+          <include name="loadProptiesFile"/>
+          <include name="tearDown"/>
+          <include name="tearDownSuiteLevel"/>
+        </methods>
+      </class> <!-- com.htc.amazon.test.RemovingAItemFromTheCart -->
+      <class name="com.htc.amazon.test.VerifyDownloadTheAmazonAppTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loadProptiesFile"/>
+          <include name="downloadAmazonApp"/>
+          <include name="tearDown"/>
+          <include name="tearDownSuiteLevel"/>
+        </methods>
+      </class> <!-- com.htc.amazon.test.VerifyDownloadTheAmazonAppTest -->
+    </classes>
+  </test> <!-- Amazon WebSite Test(failed) -->
+</suite> <!-- Failed suite [AmazonWebsite] -->

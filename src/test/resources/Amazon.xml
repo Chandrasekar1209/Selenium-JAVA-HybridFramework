@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AmazonWebsite">
+	<listeners>
+		<listener class-name="com.htc.amazon.listener.TestNGListener"></listener>
+	</listeners>
+
+	<test name="Amazon WebSite Test" preserve-order="true">
+		<classes>
+			
+			<class name="com.htc.amazon.test.LoginTest"></class>
+			<class name="com.htc.amazon.test.PurchasingPoductTest"></class>
+			<class name="com.htc.amazon.test.PrimeVidoTest"></class>
+			<class name="com.htc.amazon.test.VerifyDownloadTheAmazonAppTest"></class>
+			<class name="com.htc.amazon.test.AmzonCareersTest"></class>
+			<class name="com.htc.amazon.test.RemovingAItemFromTheCart"></class>
+			<class name="com.htc.amazon.test.ChangeUserNameTest"></class>
+
+
+		</classes>
+	</test>
+</suite>

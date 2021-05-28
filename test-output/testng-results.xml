@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[URL IS LOADED SUCCESSFULLY:chromeURL:https://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[URL IS LOADED SUCCESSFULLY:chromeURL:https://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[URL IS LOADED SUCCESSFULLY:chromeURL:https://www.amazon.in/]]>
+    </line>
+  </reporter-output>
+  <suite name="AmazonWebsite" duration-ms="174750" started-at="2021-05-28T19:58:45 IST" finished-at="2021-05-28T20:01:39 IST">
+    <groups>
+    </groups>
+    <test name="Amazon WebSite Test" duration-ms="174750" started-at="2021-05-28T19:58:45 IST" finished-at="2021-05-28T20:01:39 IST">
+      <class name="com.htc.amazon.test.AmzonCareersTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.amazon.test.AmzonCareersTest@6166e06f]" name="setup" is-config="true" duration-ms="8986" started-at="2021-05-28T20:00:11 IST" finished-at="2021-05-28T20:00:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[URL IS LOADED SUCCESSFULLY:chromeURL:https://www.amazon.in/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="amazonCareers(java.util.Map)[pri:0, instance:com.htc.amazon.test.AmzonCareersTest@6166e06f]" name="amazonCareers" duration-ms="16678" started-at="2021-05-28T20:00:21 IST" data-provider="InputData" finished-at="2021-05-28T20:00:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Expected=Continue with your Amazon account, JobTitle=automation tester, Location=chennai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonCareers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.amazon.test.AmzonCareersTest@6166e06f]" name="tearDown" is-config="true" duration-ms="429" started-at="2021-05-28T20:00:38 IST" finished-at="2021-05-28T20:00:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.htc.amazon.test.AmzonCareersTest -->
+      <class name="com.htc.amazon.test.VerifyDownloadTheAmazonAppTest">
+        <test-method status="PASS" signature="loadProptiesFile()[pri:0, instance:com.htc.amazon.test.VerifyDownloadTheAmazonAppTest@442675e1]" name="loadProptiesFile" is-config="true" duration-ms="388" started-at="2021-05-28T19:58:44 IST" finished-at="2021-05-28T19:58:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProptiesFile -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.amazon.test.VerifyDownloadTheAmazonAppTest@442675e1]" name="setup" is-config="true" duration-ms="23401" started-at="2021-05-28T19:58:45 IST" finished-at="2021-05-28T19:59:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[URL IS LOADED SUCCESSFULLY:chromeURL:https://www.amazon.in/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="downloadAmazonApp(java.util.Map)[pri:0, instance:com.htc.amazon.test.VerifyDownloadTheAmazonAppTest@442675e1]" name="downloadAmazonApp" duration-ms="13050" started-at="2021-05-28T19:59:39 IST" data-provider="InputData" finished-at="2021-05-28T19:59:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Expected=Email has been sent!, EmailAddress=qwe1234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAmazonApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.amazon.test.VerifyDownloadTheAmazonAppTest@442675e1]" name="tearDown" is-config="true" duration-ms="18394" started-at="2021-05-28T19:59:53 IST" finished-at="2021-05-28T20:00:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownSuiteLevel()[pri:0, instance:com.htc.amazon.test.VerifyDownloadTheAmazonAppTest@442675e1]" name="tearDownSuiteLevel" is-config="true" duration-ms="525" started-at="2021-05-28T20:01:41 IST" finished-at="2021-05-28T20:01:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuiteLevel -->
+      </class> <!-- com.htc.amazon.test.VerifyDownloadTheAmazonAppTest -->
+      <class name="com.htc.amazon.test.RemovingAItemFromTheCart">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.amazon.test.RemovingAItemFromTheCart@49e202ad]" name="setup" is-config="true" duration-ms="8075" started-at="2021-05-28T20:00:38 IST" finished-at="2021-05-28T20:00:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CHROME DRIVER IS LOADED SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[URL IS LOADED SUCCESSFULLY:chromeURL:https://www.amazon.in/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RemovingItemFromCart()[pri:0, instance:com.htc.amazon.test.RemovingAItemFromTheCart@49e202ad]" name="RemovingItemFromCart" duration-ms="50817" started-at="2021-05-28T20:00:46 IST" finished-at="2021-05-28T20:01:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemovingItemFromCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.amazon.test.RemovingAItemFromTheCart@49e202ad]" name="tearDown" is-config="true" duration-ms="391" started-at="2021-05-28T20:01:39 IST" finished-at="2021-05-28T20:01:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.htc.amazon.test.RemovingAItemFromTheCart -->
+    </test> <!-- Amazon WebSite Test -->
+  </suite> <!-- AmazonWebsite -->
+</testng-results>
