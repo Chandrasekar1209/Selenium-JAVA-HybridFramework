@@ -1,4 +1,4 @@
-Amazon Website Automation
+Selenium with java Hybrid framework (Amazon E-commerce website Automation)
 
 I have been working on automating the Amazon E-commerce website using the selenium tool, tI is using Maven plug-in to implement the dependency injection. In the,t I have developed a Hybrid framework which as used data-driven and Modular driven framework which makes code maintenance easy and efficient. On this page object model design pattern is used that creates an Object Repository for web UI elements.XPathtors:
 
