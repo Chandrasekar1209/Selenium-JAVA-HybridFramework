@@ -33,11 +33,11 @@ public class Constant {
 	
 	public  static String searchProduct="laptop";
 	
-	public static String emailAddress="seky1209@gmail.com";
+	public static String emailAddress="seky@gmail.com";
 	
-	public static String phoneNumber="8608119123";
+	public static String phoneNumber="8608119111";
 	
-	public static String password="Seky@119123";
+	public static String password="Welcome@123";
 	
 
 }
